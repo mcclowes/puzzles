@@ -1,29 +1,119 @@
+<<<<<<< Updated upstream
 # puzzles
+=======
+# mcclowes-puzzles
+>>>>>>> Stashed changes
 
-_Automatically synced with your [v0.app](https://v0.app) deployments_
+A modern landing page for a collection of daily word puzzle games. Built with Next.js, TypeScript, and Tailwind CSS.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mcclowes/puzzles)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This is a landing page showcasing three unique word puzzle games:
+- **Prefix** - Find words that share a common prefix (Medium difficulty)
+- **Lynx Mini** - Connect words through clever associations (Easy difficulty)
+- **Lynx** - The ultimate word connection challenge (Hard difficulty)
+
+Each game is updated daily, providing fresh challenges for puzzle enthusiasts.
+
+## Features
+
+- 🎮 Interactive game cards with difficulty indicators
+- 🌓 Dark mode support via theme provider
+- 📱 Fully responsive design
+- ⚡ Built with Next.js 16 for optimal performance
+- 🎨 Modern UI using Radix UI components and Tailwind CSS
+- ♿ Accessible components following best practices
+
+## Tech Stack
+
+- **Framework**: Next.js 16.0.3
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4.1.9
+- **UI Components**: Radix UI
+- **Icons**: Lucide React
+- **Theme**: next-themes
+- **Form Handling**: React Hook Form + Zod
+- **Deployment**: Vercel
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd puzzles
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the production application
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check code formatting
+
+## Project Structure
+
+```
+puzzles/
+├── app/                 # Next.js app directory
+│   ├── globals.css     # Global styles
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Home page
+├── components/          # React components
+│   ├── footer.tsx      # Footer component
+│   ├── game-card.tsx   # Game card component
+│   ├── game-grid.tsx   # Game grid layout
+│   ├── header.tsx      # Header navigation
+│   ├── hero.tsx        # Hero section
+│   └── theme-provider.tsx # Theme context provider
+├── lib/                # Utility functions
+│   └── utils.ts        # Helper utilities
+└── public/             # Static assets
+```
+
+## Components
+
+- **Header** - Navigation bar with links to games, about, and contact
+- **Hero** - Main landing section with title and description
+- **GameGrid** - Displays all available puzzle games
+- **GameCard** - Individual game card with title, description, difficulty, and link
+- **Footer** - Site footer
+- **ThemeProvider** - Handles dark/light mode theming
+
+## Development
+
+This project uses:
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Radix UI for accessible component primitives
+- ESLint and Prettier for code quality
 
 ## Deployment
 
-Your project is live at:
+The project is automatically deployed on Vercel. Any pushes to the main branch will trigger a new deployment.
 
-**[https://vercel.com/mcclowes/v0-puzzle-game-landing-page](https://vercel.com/mcclowes/v0-puzzle-game-landing-page)**
+## License
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/ua6jjqdxhat](https://v0.app/chat/ua6jjqdxhat)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Private project - All rights reserved.
