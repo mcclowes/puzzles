@@ -9,7 +9,7 @@ const inknutAntiqua = Inknut_Antiqua({
 })
 
 export const metadata: Metadata = {
-  title: 'mcclowes puzzles | Daily Word Games',
+  title: 'mcclowes puzzles',
   description: 'Challenge your mind with daily word puzzles. Play Prefix, Lynx Mini, and Lynx - thoughtfully crafted word games designed to engage and entertain.',
   generator: 'v0.app',
   icons: {

@@ -12,7 +12,7 @@ export function GameCard({ title, description, url, difficulty }: GameCardProps)
   return (
     <Link
       href={url}
-      className="group block border border-border bg-card hover:border-foreground transition-all duration-200"
+      className="group block border border-border bg-card hover:border-foreground transition-all duration-200 rounded-lg"
     >
       <div className="p-6">
         <div className="flex items-start justify-between mb-4">
