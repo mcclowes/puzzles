@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -54,9 +54,11 @@
 }
 
 @theme inline {
-  --font-sans: 'Inknut Antiqua', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Inknut Antiqua', system-ui, -apple-system, serif;
-  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --font-sans: "Inknut Antiqua", system-ui, -apple-system, sans-serif;
+  --font-serif: "Inknut Antiqua", system-ui, -apple-system, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
