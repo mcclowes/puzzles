@@ -17,7 +17,7 @@ export function GameCard({
   return (
     <Link
       href={url}
-      className="group border-border bg-card hover:border-foreground block rounded-lg border transition-all duration-200"
+      className="group border-border bg-background hover:border-foreground block rounded-lg border transition-all duration-200"
     >
       <div className="p-6">
         <div className="mb-4 flex items-start justify-between">

@@ -10,10 +10,14 @@ A modern landing page for a collection of daily word puzzle games. Built with Ne
 
 ## Overview
 
-This is a landing page showcasing three unique word puzzle games:
+This is a landing page showcasing seven unique puzzle games:
 - **Prefix** - Find words that share a common prefix (Medium difficulty)
 - **Lynx Mini** - Connect words through clever associations (Easy difficulty)
 - **Lynx** - The ultimate word connection challenge (Hard difficulty)
+- **Minute Cryptic** - Solve today's cryptic crossword clue (Hard difficulty)
+- **Landmarks** - Identify famous landmarks from around the world (Medium difficulty)
+- **Ditloids** - Decode number-letter puzzles (Medium difficulty)
+- **Fictionary** - Spot the real words and match them to definitions (Easy difficulty)
 
 Each game is updated daily, providing fresh challenges for puzzle enthusiasts.
 
