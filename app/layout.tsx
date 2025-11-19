@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inknut_Antiqua } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { CookieConsent } from "@/components/cookie-consent";
 import "./globals.css";
 
 const inknutAntiqua = Inknut_Antiqua({
@@ -44,7 +44,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         {children}
-        <Analytics />
+        <CookieConsent />
       </body>
     </html>
   );
