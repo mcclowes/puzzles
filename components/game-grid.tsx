@@ -66,7 +66,7 @@ const gameGenres: GameGenre[] = [
     ],
   },
   {
-    name: "Knowledge Games",
+    name: "What do you know?",
     games: [
       {
         title: "Landmarks",
